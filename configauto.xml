@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean name = "address" class = "com.springmaven.auto.Mywireauto.Address">
+<property name = "street" >
+<value> Thiruporur </value>
+</property>
+<property name = "city" >
+<value> Chennai </value>
+</property>
+</bean>
+<bean name = "std" class = "com.springmaven.auto.Mywireauto.Student" autowire = "byName">
+
+</bean>
+</beans>
+
+
